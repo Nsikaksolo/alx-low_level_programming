@@ -7,14 +7,15 @@
  *
  * Return: Always 0 (Success)
  */
+
 int main(void)
 {
-	int d;
+	int c;
 
-	for (d = '0'; d <= '9'; d++)
+	for (c = 48; c <= 57; c++)
 	{
-		putchar(0);
-		if (d != '9')
+		putchar(c);
+		if (c != 57)
 		{
 			putchar(',');
 			putchar(' ');
