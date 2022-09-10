@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <time.h>
 /**
- * main - print the last digit of a umber stored in variable
+ * main - Entry point
  *
  * Return: Always 0 (success)
  */
@@ -11,7 +11,9 @@ int main(void)
 	int n;
 	int i;
 
-	srand() - RAND_MAX / 2;
+
+	srand(time(0));
+       n = rand() - RAND_MAX / 2;
 	i = n % 10;
 	if (i > 5)
 	{
