@@ -1,5 +1,5 @@
 #include <stdio.h>
-/*
+/**
  *main - print triple combos
  * Description: print tripple digit combos
  * Return: Always 0 (Success)
