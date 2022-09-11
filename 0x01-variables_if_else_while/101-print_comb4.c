@@ -32,9 +32,9 @@ int main(void)
 					putchar(32);
 					k++;
 				}
-				j++
+				j++;
 			}
-			i++
+			i++;
 		}
 		putchar(10);
 		return (0);
