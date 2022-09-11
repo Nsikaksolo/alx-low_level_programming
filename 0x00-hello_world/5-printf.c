@@ -3,7 +3,8 @@
  * main - print the string in the put function
  *
  * this program prints with proper grammar, but the outcome is a piece of art
- * return: Always 0 (Succss)
+ *
+ * Return: Always 0 (Succss)
  */
 int main(void)
 {
