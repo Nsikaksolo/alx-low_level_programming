@@ -10,33 +10,27 @@
 
 int main(void)
 {
-	int i, j, k;
-
-	i = 48;
-	j = 48;
-	k = 48;
-	while (i < 58)
+	int i, p, m;
+	for (i = 0; i <= 9; i++)
 	{
-		j = i + 1;
-		while (j < 58)
+		for (p = 1; p <= 9; p++)
 		{
-			k = j + 1;
-			while (k < 58)
+			for (m = 2; m <= 9; m++)
 			{
-				putchar(i);
-				putchar(j);
-				putchar(k);
-				if (i < 55 || j < 56 || k < 57)
+				if (m > p && p > i)
 				{
-					putchar(44);
-					putchar(32);
-					k++;
+					putchar(i + '0');
+					putchar(p + '0');
+					putchar(m + '0');
+					if (i != 7)
+					{
+						putchar(',');
+						putchar(' ');
+					}
 				}
-				j++;
 			}
-			i++;
 		}
-		putchar(10);
 	}
-		return (0);
-}	
+	putchar('\n');
+	return (0);
+}
