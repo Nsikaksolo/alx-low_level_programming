@@ -30,4 +30,3 @@ int i, j;
 	putchar('\n');
 	return (0);
 }
-
