@@ -5,7 +5,7 @@
  * Reeturn: 0
  */
 
-int _islower(int c)
+int_islower(int c)
 {
 	return (c >= 97 && c <= 122);
 }
