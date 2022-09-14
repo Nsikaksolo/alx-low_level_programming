@@ -19,6 +19,6 @@ int main(void)
 		if (next % 2 == 0)
 			sum += next;
 	}
-	printf("%\n", sum);
+	printf("%lu\n", sum);
 	return (0);
 }
