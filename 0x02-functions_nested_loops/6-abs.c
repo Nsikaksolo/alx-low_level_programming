@@ -1,4 +1,4 @@
-#include <stdi>
+#include <stdio.h>
 
 /**
  * _abs - return abs value
