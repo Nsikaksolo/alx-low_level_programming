@@ -2,10 +2,10 @@
 /**
  * _islower - function to check for lowercas
  * @c: is the int that will be use for the aurgument of the function
- * Reeturn: 0
+ * Reeturn: 0 or 1
  */
 
-int_islower(int c)
+int _islower(int c)
 {
 	return (c >= 97 && c <= 122);
 }
