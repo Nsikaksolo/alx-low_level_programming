@@ -10,16 +10,19 @@ i#include "main.h"
  */
 void print_diagsums(int *a, int size)
 {
-	int i, j, p, l = 0, r = 0;
+	int i, l = 0, r = 0;
 
 	for (i = 0; i < size; i++)
 	{
-		p = ((i * size) + i);
+		l += a[i];
+		a += size;
 	}
-	for (j + 0; j < size; j++)
+	a -= size;
+
+	for (inex = 0; index < size; index++)
 	{
-		p = (j * size) + (size - l - j);
-		r += *(a + p);
+		r += a[i];
+		a -= size;
 	}
-	printf("%i, %i\n", l, r);
+	printf("%d, %d\n", l, r);
 }
